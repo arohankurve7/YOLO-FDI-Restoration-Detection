@@ -1,0 +1,15 @@
+path: datasets/raw/restorations/Annotated OPG Dataset for Dental Fillings, Prostheses (Crowns & Bridges), Endodontic Treatments, Endodontic Posts, and Dental Implants/Dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6
+
+names:
+  0: Crown
+  1: Dental_Fillings
+  2: Endodontic_post
+  3: Root_Canal_treated_tooth
+  4: bridge
+  5: implant

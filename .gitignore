@@ -1,0 +1,40 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.DS_Store
+
+# Medical images and datasets
+datasets/
+TEST/
+
+# Trained model weights
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Training runs and generated predictions
+runs/
+results/
+
+# Local secrets and temporary files
+.env
+.env.*
+*.log
+.ipynb_checkpoints/
+
+# Historical inference versions and backups
+src/**/fdi_assignment_resolver_before_*.py
+src/**/fdi_dashboard_app_before_*.py
+src/**/fdi_dashboard_app_*backup.py
+src/**/fdi_inference_v3_before_*.py
+src/**/final_fdi_inference_before_*.py
+src/**/interactive_viewer_before_*.py
+src/**/physical_fdi_resolver_before_*.py
+src/**/tooth_chart_dashboard_before_*.py
+src/**/tooth_chart_html_before_*.py
+src/**/segmentation_inference_before_*.py
+src/**/segmentation_inference_original.py
